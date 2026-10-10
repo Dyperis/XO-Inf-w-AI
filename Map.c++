@@ -127,7 +127,7 @@ private:
             int count = 1;
             count += countInDirection(pos, mark, dr, dc);
             count += countInDirection(pos, mark, -dr, -dc);
-            if (count >= 3) {
+            if (count >= 7) {
                 return true;
             }
         }
